@@ -1,0 +1,19 @@
+def dividir(a, b):
+    if b == 0:
+        raise Exception('Essa função não aceita como argumento o número 0 para o parâmetro b!')
+    return a / b
+
+dividir(10, 0)
+
+---------------------------------------------------------------------------
+Exception                                 Traceback (most recent call last)
+~\AppData\Local\Temp/ipykernel_17720/3154767747.py in 
+----> 1 dividir(10, 0)
+
+~\AppData\Local\Temp/ipykernel_17720/3529611804.py in dividir(a, b)
+      1 def dividir(a, b):
+      2     if b == 0:
+----> 3         raise Exception('Essa função não aceita como argumento o número 0 para o parâmetro b!')
+      4     return a / b
+
+Exception: Essa função não aceita como argumento o número 0 para o parâmetro b!
